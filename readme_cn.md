@@ -11,7 +11,7 @@
 > 4. stable-diffusion.js
 > >使用Cloudflare的stable-diffusion模型，模仿dall-e-3请求和响应。
 ## 如何使用
-> 在cloudflare的AI Worker中选择对饮模型，把代码粘进去，设置自定义域名，部署就可以根据字的音译域名及代码的注释发送请求，每个JavaScript脚本的用法已在代码中注释，详情请阅读代码。享受它们！
+> 在cloudflare的AI Worker中选择对饮模型，把代码粘进去，设置自定义域名，部署就可以根据自定义域名及代码的注释发送请求，每个JavaScript脚本的用法已在代码中注释，详情请阅读代码。享受它们！
 ## 许可证
 > 根据MIT许可证分发。
 ## 联系方式
