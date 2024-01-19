@@ -1,4 +1,4 @@
-//使用cloudflare的stable-diffusion模型，模仿dall-e-3请求和响应
+//使用cloudflare的stable-diffusion模型，模仿dall-e-3请求和响应，prompt已支持中文输入
 //POST请求：
 //{
 //     "model": "dall-e-3",
@@ -42,11 +42,19 @@ export default {
             );
         }
 
-        const prompt = reqBody.prompt;
+        const p = reqBody.prompt;
         const n = reqBody.n || 1;
         const size = reqBody.size || '1024x1024';
 
         const ai = new Ai(env.AI);
+
+        let rs = await ai.run('@cf/meta/m2m100-1.2b', {
+            text: p,
+            source_lang: "chinese",
+            target_lang: "english"
+        });
+
+        let prompt=rs.translated_text
 
         const inputs = {
             prompt: prompt
