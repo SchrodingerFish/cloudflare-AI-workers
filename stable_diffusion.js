@@ -2,7 +2,7 @@
 //POST请求：
 //{
 //     "model": "dall-e-3",
-//     "prompt": "A beautiful pretty cute Chinese girl",
+//     "prompt": "一个可爱得中国女孩",
 //     "n": 1,
 //     "size": "1920x1080"
 // }
