@@ -1,4 +1,13 @@
 //ChatGPT API代理 支持流式响应，根据OPENAI官方文档正常调用即可，最好换成自定义域名，以免被墙
+// curl调用demo：
+// curl --location 'http://你的自定义域名/v1/chat/completions' \
+// --header 'Authorization: Bearer sk-xxxxxxxxxxxxxxx' \
+// --header 'Content-Type: application/json' \
+// --data '{
+//    "model": "gpt-3.5-turbo",
+//   "messages": [{"role": "user", "content": "Hello!"}]
+//  }'
+
 
 const TELEGRAPH_URL = 'https://chat.openai.com';
 
