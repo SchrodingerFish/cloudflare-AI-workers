@@ -9,7 +9,7 @@
 > 4. whisper.js 
 > >In order to use Cloudflare's whisper model, audio to speech, Chinese is not currently supported, and the file should not be too large. It needs to be used in combination with the API Token of AI Worker.
 > 5. stable_diffusion.js
-> >Use Cloudflare's stable-diffusion model to mimic all-e-3 requests and responses.
+> >Use Cloudflare's stable-diffusion model to mimic dll-e-3 requests and responses.
 > 6. chat_gpt.js
 > >ChatGPT API proxy, supports streaming response, and can be called normally according to the official OPENAI document. It is best to change it to a custom domain name to avoid being blocked.
 ## How to use
