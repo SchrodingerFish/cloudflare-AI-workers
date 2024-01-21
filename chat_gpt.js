@@ -1,4 +1,4 @@
-//ChatGPT API代理 支持流式响应，根据OPENAI官方文档正常调用即可，最好换成自定义域名，以免被墙
+//ChatGPT API代理 支持流式响应，根据OPENAI官方文档正常调用即可，最好换成自定义域名，以免被墙或者另一个方法，直接使用cf的AI Gateway网关访问OpenAI
 // curl调用demo：
 // curl --location 'http://你的自定义域名/v1/chat/completions' \
 // --header 'Authorization: Bearer sk-xxxxxxxxxxxxxxx' \
