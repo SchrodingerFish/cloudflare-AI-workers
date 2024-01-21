@@ -15,7 +15,7 @@
 ## How to use
 > Select the drink model in Cloudflare's AI Worker, stick the code in, set a custom domain name, and the deployment can send requests according to the transliteration domain name of the word and the comments of the code.The usage of each JavaScript script has been commented in the code, please read the code for details.Enjoy them!
 ## License
-> Distributed under the [MIT License]([https://www.google.com](https://github.com/SchrodingerFish/cloudflare-AI-workers/blob/main/LICENSE)). 
+> Distributed under the [MIT License](https://github.com/SchrodingerFish/cloudflare-AI-workers/blob/main/LICENSE). 
 ## Contact
 > If you have any questions, please contact me by email: SchrodingersFish@outlook.com.
 
