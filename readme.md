@@ -20,3 +20,5 @@
 > If you have any questions, please contact me by email: SchrodingersFish@outlook.com.
 
 ![GitHub仓库信息卡片](https://github-stats.ubrong.com/api/pin/?username=SchrodingerFish&repo=cloudflare-AI-workers&theme=dark)
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SchrodingerFish&show_icons=true&theme=radical)
